@@ -9,9 +9,7 @@ class RoundRectangleBtn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {
-        print("->>>>>>>>>>>>>>post");
-      },
+      onTap: onTap,
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: ClipRRect(
